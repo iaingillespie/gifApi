@@ -1,0 +1,18 @@
+body {
+
+}
+
+#buttoncontainer{
+    background-color: black;
+    padding: 10px;
+    padding-left: 40px;
+}
+
+#gifcontainer{
+    margin: 20px;
+    padding: 20px;
+}
+
+#giphylogo{
+    margin-right: 40px;
+}
