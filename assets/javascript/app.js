@@ -14,6 +14,8 @@ $("#clear").on("click", function() {
     $("#buttoncontainer").empty();
     anime = ["Spirited Away", "Howl's Moving Castle", "Ponyo", "Princess Kaguya", "Paprika anime"];
     printButtons();
+    $("#gifcontainer").empty();
+    
 });
 
 // for loop to make the buttons on the page
