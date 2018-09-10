@@ -1,7 +1,7 @@
 
 $(document).ready(function(){
 
-var anime = ["Spirited Away", "Howl's Moving Castle", "Ponyo", "Princess Kaguya", "Paprika anime"];
+var anime = ["Spirited Away", "Howl's Moving Castle", "Ponyo", "The Tale of Princess Kaguya", "My Neighbor Totoro", "Princess Mononoke", "Porco Rosso", "Grave of the Fireflies", "Hayao Miyazaki", "Laputa: Castle in the Sky"];
 
 $("#add").on("click", function() { 
     anime.push($("#search").val());
@@ -12,10 +12,9 @@ $("#add").on("click", function() {
 
 $("#clear").on("click", function() { 
     $("#buttoncontainer").empty();
-    anime = ["Spirited Away", "Howl's Moving Castle", "Ponyo", "Princess Kaguya", "Paprika anime"];
+    anime = ["Spirited Away", "Howl's Moving Castle", "Ponyo", "The Tale of Princess Kaguya", "My Neighbor Totoro", "Princess Mononoke", "Porco Rosso", "Grave of the Fireflies", "Hayao Miyazaki", "Laputa: Castle in the Sky"];
     printButtons();
     $("#gifcontainer").empty();
-    
 });
 
 // for loop to make the buttons on the page
